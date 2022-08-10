@@ -3,7 +3,7 @@
 **This Repository contains codes related to [FL-RL Project](). The complete codes and notebooks will be published soon.**
 
 
-The purpose of this project is to implement the basic and initial pytorch codes of __Meta reinforcement Learning__ approaches from scratch.
+The purpose of this project is to implement and test the pytorch codes of __Meta reinforcement Learning__ approaches from scratch.
 
 ## Requirements
 
@@ -11,13 +11,31 @@ The purpose of this project is to implement the basic and initial pytorch codes 
 * Gym
 * [Learn2Learn](http://learn2learn.net)
 * [Cherry-RL](http://cherry-rl.net)
+* [Mojuco-Py](https://github.com/openai/mujoco-py)
 
 ## Content
+  - [x] Trust Region Policy Optimization
+  - [x] MAML A2C
   - [x] MAML TRPO
   - [x] MAML PPO
   - [ ] ANIL
   - [ ] SNAIL
   
+## Experiments
+### Half Cheetah Environment
+Training a deep model for 300 iterations.
+
+<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/models/rewards.png?raw=true" alt="plot1" width="500"/>
+
+- TRPO-MAML trained model output
+<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/0.gif?raw=true"/>
+
+- After 3 TRPO Update steps on forward task
+<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/1.gif?raw=true"/>
+
+- After 3 TRPO Update steps for backward task
+<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/-1.gif?raw=true"/>
+
 ## References
 
 1. Finn, C., Abbeel, P. & Levine, S. Model-agnostic meta-learning for fast adaptation of deep networks. 34th Int. Conf. Mach. Learn. ICML 2017 3, 1856–1868 (2017).
