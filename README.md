@@ -43,13 +43,13 @@ Training for 900 iterations.
 <img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/AntEnv/Ant.png?raw=true" alt="plot2" width="500"/>
 
 - TRPO-MAML trained model output
-<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/AnyEnv/0.gif?raw=true" width="300"/>
+<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/AntEnv/0.gif?raw=true" width="300"/>
 
 - After 5 TRPO Update steps on forward task
-<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/AnyEnv/1.gif?raw=true" width="300"/>
+<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/AntEnv/1.gif?raw=true" width="300"/>
 
 - After 5 TRPO Update steps on backward task
-<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/AnyEnv/-1.gif?raw=true" width="300"/>
+<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/AntEnv/-1.gif?raw=true" width="300"/>
 
 ## References
 
