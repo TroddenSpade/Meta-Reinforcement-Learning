@@ -23,18 +23,33 @@ The purpose of this project is to implement and test the pytorch codes of __Meta
   
 ## Experiments
 ### Half Cheetah Environment
-Training a deep model for 300 iterations.
+Training for 300 iterations.
 
-<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/models/rewards.png?raw=true" alt="plot1" width="500"/>
+<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/CheetahEnv/cheetah.png?raw=true" alt="plot1" width="500"/>
 
 - TRPO-MAML trained model output
-<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/0.gif?raw=true"/>
+<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/CheetahEnv/0.gif?raw=true" width="300"/>
 
 - After 3 TRPO Update steps on forward task
-<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/1.gif?raw=true"/>
+<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/CheetahEnv/1.gif?raw=true" width="300"/>
 
-- After 3 TRPO Update steps for backward task
-<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/-1.gif?raw=true"/>
+- After 3 TRPO Update steps on backward task
+<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/CheetahEnv/-1.gif?raw=true" width="300"/>
+
+
+### Ant Environment
+Training for 900 iterations.
+
+<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/AntEnv/Ant.png?raw=true" alt="plot2" width="500"/>
+
+- TRPO-MAML trained model output
+<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/AnyEnv/0.gif?raw=true" width="300"/>
+
+- After 5 TRPO Update steps on forward task
+<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/AnyEnv/1.gif?raw=true" width="300"/>
+
+- After 5 TRPO Update steps on backward task
+<img src="https://github.com/TroddenSpade/Meta-Reinforcement-Learning/blob/main/results/AnyEnv/-1.gif?raw=true" width="300"/>
 
 ## References
 
