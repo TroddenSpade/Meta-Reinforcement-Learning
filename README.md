@@ -3,11 +3,11 @@
 **This Repository contains codes related to [FL-RL Project](). The complete codes and notebooks will be published soon.**
 
 
-The purpose of this project is to implement and test the pytorch codes of __Meta reinforcement Learning__ approaches from scratch.
+The purpose of this project is to implement and test the PyTorch codes of __Meta reinforcement Learning__ approaches from scratch.
 
 ## Requirements
 
-* Pytorch
+* PyTorch
 * Gym
 * [Learn2Learn](http://learn2learn.net)
 * [Cherry-RL](http://cherry-rl.net)
