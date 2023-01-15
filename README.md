@@ -18,8 +18,9 @@ The purpose of this project is to implement and test the PyTorch codes of __Meta
   - [x] MAML A2C
   - [x] MAML TRPO
   - [x] MAML PPO
-  - [ ] ANIL
+  - [x] ANIL
   - [ ] SNAIL
+  - [ ] Reptile
   
 ## Experiments
 ### Half Cheetah Environment
