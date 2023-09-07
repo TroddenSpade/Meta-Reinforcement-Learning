@@ -7,10 +7,11 @@ The purpose of this project is to implement and test the PyTorch codes of __Meta
 
 ## Requirements
 
+* Python 3.8
 * PyTorch
-* Gym
-* [Learn2Learn](http://learn2learn.net)
-* [Cherry-RL](http://cherry-rl.net)
+* Gym v0.21.0
+* [Learn2Learn](http://learn2learn.net) v0.2.0
+* [Cherry-RL](http://cherry-rl.net) v0.2.0
 * [Mojuco-Py](https://github.com/openai/mujoco-py)
 
 ## Content
